@@ -64,7 +64,7 @@ function turnOff() {
   </main>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .error {
   height: 90vh;
   color: red;
