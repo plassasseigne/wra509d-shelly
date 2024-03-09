@@ -11,5 +11,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-
+header {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 </style>
