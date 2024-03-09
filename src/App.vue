@@ -1,9 +1,13 @@
 <script setup>
-
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <h1>Hello world</h1>
+  <header>
+    <RouterLink to="/">Mode local</RouterLink>
+    <RouterLink to="/cloud">Mode cloud</RouterLink>
+  </header>
+  <RouterView />
 </template>
 
 <style scoped>
